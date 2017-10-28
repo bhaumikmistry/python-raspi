@@ -10,15 +10,15 @@ from time import sleep
 
 def get_names():
     names = [
-        "/img/l0_sprite_stage1.png",
-        "/img/l0_sprite_stage2.png",
-        "/img/l0_sprite_stage3.png",
-        "/img/l0_sprite_stage4.png",
-        "/img/l0_sprite_stage5.png",
-        "/img/l0_sprite_stage6.png",
-        "/img/l0_sprite_stage7.png",
-        "/img/l0_sprite_stage8.png",
-        "/img/l0_sprite_stage9.png",
+        "l0_sprite_stage1.png",
+        "l0_sprite_stage2.png",
+        "l0_sprite_stage3.png",
+        "l0_sprite_stage4.png",
+        "l0_sprite_stage5.png",
+        "l0_sprite_stage6.png",
+        "l0_sprite_stage7.png",
+        "l0_sprite_stage8.png",
+        "l0_sprite_stage9.png",
     ]
     return names
 
