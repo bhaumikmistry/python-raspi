@@ -1,7 +1,8 @@
 #!/usr/bin/python
 from sense_hat import SenseHat
 from time import sleep
-
+import pygame  # See http://www.pygame.org/docs
+from pygame.locals import *
 
 
 # r = [255, 0, 0]
