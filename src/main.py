@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from sense_hat import SenseHat
+#from sense_hat import SenseHat
 from time import sleep
 
 
@@ -24,14 +24,14 @@ def get_names():
 
 
 if __name__ == "__main__":
-    sense = SenseHat()
-    sense.set_rotation(180)
+    #sense = SenseHat()
+    #sense.set_rotation(180)
     list_name = get_names()
     while True:
         for x in list_name:
             sleep(0.7) # Time in seconds.
-            print(x)
-            sense.load_image(x)
+            print('"{}"'.format(x))
+            #sense.load_image('"{}"'.format(x))
 
 
 
