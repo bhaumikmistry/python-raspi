@@ -46,7 +46,7 @@ def setBird(sense):
     sense.set_pixel(0, 0, red)
 
 def check_bird():
-    if ybrid > 7 && ybrid < 0:
+    if ybrid > 7 and ybrid < 0:
         return False
 
 sense.stick.direction_up = pushed_up
