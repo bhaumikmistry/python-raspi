@@ -25,8 +25,8 @@ RUN apt-get update && apt-get install \
 RUN wget https://github.com/RPi-Distro/RTIMULib/archive/b949681af69b45f0f7f4bb53b6770037b5b02178.zip
 RUN unzip b949681af69b45f0f7f4bb53b6770037b5b02178.zip
 WORKDIR /usr/src/app/RTIMULib-b949681af69b45f0f7f4bb53b6770037b5b02178/Linux/python
-RUN python3 setup.py build
-RUN python3 setup.py install
+RUN python setup.py build
+RUN python setup.py install
 
 WORKDIR /usr/src/app
 
