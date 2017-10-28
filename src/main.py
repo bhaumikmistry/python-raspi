@@ -9,7 +9,7 @@ from pygame.locals import *
 sense = SenseHat()
 xbird = 3
 ybrid = 3
-
+res = True
 # r = [255, 0, 0]
 g = [0,255,0]
 # w = [255, 255, 255]
@@ -131,6 +131,7 @@ if __name__ == "__main__":
         main_unit()
         boom()
         ybrid = 3
+        res = True
 
 
 
