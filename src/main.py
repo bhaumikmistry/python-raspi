@@ -77,48 +77,48 @@ def main_unit():
         sense.load_image("stage1.png")
         sense.set_pixel(xbird, ybrid, g)     
         res = check_bird()
-        if(!res):
+        if(not res):
             break
         sleep(0.7) # Time in seconds.
         sense.load_image("stage2.png")
         sense.set_pixel(xbird, ybrid, g)    
-        if(!res):
+        if(not res):
             break
 
         sleep(0.7) # Time in seconds.
         sense.load_image("stage3.png")
         sense.set_pixel(xbird, ybrid, g)  
-        if(!res):
+        if(not res):
             break
 
         sleep(0.7) # Time in seconds.
         sense.load_image("stage4.png")
         sense.set_pixel(xbird, ybrid, g)
-        if(!res):
+        if(not res):
             break
 
         sleep(0.7) # Time in seconds.
         sense.load_image("stage5.png")
         sense.set_pixel(xbird, ybrid, g)
-        if(!res):
+        if(not res):
             break
 
         sleep(0.7) # Time in seconds.
         sense.load_image("stage6.png")
         sense.set_pixel(xbird, ybrid, g)  
-        if(!res):
+        if(not res):
             break
 
         sleep(0.7) # Time in seconds.
         sense.load_image("stage7.png")
         sense.set_pixel(xbird, ybrid, g) 
-        if(!res):
+        if(not res):
             break
 
         sleep(0.7) # Time in seconds.
         sense.load_image("stage8.png")
         sense.set_pixel(xbird, ybrid, g)
-        if(!res):
+        if(not res):
             break
 
         sleep(0.7) # Time in seconds.
