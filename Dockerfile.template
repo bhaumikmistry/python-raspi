@@ -21,14 +21,6 @@ RUN pip install -r /requirements.txt
 RUN apt-get update && apt-get install \
     unzip
 
-RUN wget https://www.python.org/ftp/python/3.5.0/Python-3.5.0.tar.xz
-RUN tar -xf Python-3.5.0.tar.xz
-WORKDIR /tmp/Python-3.5.0
-RUN ./configure
-RUN make
-RUN make install    
-WORKDIR /usr/src/app
-
 # build RTIMU
 RUN wget https://github.com/RPi-Distro/RTIMULib/archive/b949681af69b45f0f7f4bb53b6770037b5b02178.zip
 RUN unzip b949681af69b45f0f7f4bb53b6770037b5b02178.zip
