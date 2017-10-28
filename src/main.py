@@ -10,19 +10,18 @@ from time import sleep
 
 def get_names():
     names = [
-        "l0_sprite_stage1.png",
-        "l0_sprite_stage2.png",
-        "l0_sprite_stage3.png",
-        "l0_sprite_stage4.png",
-        "l0_sprite_stage5.png",
-        "l0_sprite_stage6.png",
-        "l0_sprite_stage7.png",
-        "l0_sprite_stage8.png",
-        "l0_sprite_stage9.png",
+        "lO_sprite_stage1.png",
+        "lO_sprite_stage2.png",
+        "lO_sprite_stage3.png",
+        "lO_sprite_stage4.png",
+        "lO_sprite_stage5.png",
+        "lO_sprite_stage6.png",
+        "lO_sprite_stage7.png",
+        "lO_sprite_stage8.png",
+        "lO_sprite_stage9.png",
     ]
     return names
-
-
+    
 if __name__ == "__main__":
     sense = SenseHat()
     sense.set_rotation(180)
