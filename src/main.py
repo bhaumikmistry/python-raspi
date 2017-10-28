@@ -10,15 +10,15 @@ from time import sleep
 
 def get_names():
     names = [
-        "lO_sprite_stage1.png",
-        "lO_sprite_stage2.png",
-        "lO_sprite_stage3.png",
-        "lO_sprite_stage4.png",
-        "lO_sprite_stage5.png",
-        "lO_sprite_stage6.png",
-        "lO_sprite_stage7.png",
-        "lO_sprite_stage8.png",
-        "lO_sprite_stage9.png",
+        "stage1.png",
+        "stage2.png",
+        "stage3.png",
+        "stage4.png",
+        "stage5.png",
+        "stage6.png",
+        "stage7.png",
+        "stage8.png",
+        "stage9.png",
     ]
     return names
 
@@ -28,10 +28,24 @@ if __name__ == "__main__":
     list_name = get_names()
     while True:
         for x in list_name:
-            sleep(0.7) # Time in seconds.
             print('"{}"'.format(x))
-            sense.clear()
-            sense.load_image('"{}"'.format(x))
+        sense.clear()
+        sense.load_image("stage1.png")
+        sleep(0.7) # Time in seconds.
+        sense.load_image("stage1.png")
+        sleep(0.7) # Time in seconds.
+        sense.load_image("stage1.png")
+        sleep(0.7) # Time in seconds.
+        sense.load_image("stage1.png")
+        sleep(0.7) # Time in seconds.
+        sense.load_image("stage1.png")
+        sleep(0.7) # Time in seconds.
+        sense.load_image("stage1.png")
+        sleep(0.7) # Time in seconds.
+        sense.load_image("stage1.png")
+        sleep(0.7) # Time in seconds.
+        sense.load_image("stage1.png")
+        sleep(0.7) # Time in seconds.
 
 
 
