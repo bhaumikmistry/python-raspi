@@ -6,6 +6,7 @@ from time import sleep
 import pygame  # See http://www.pygame.org/docs
 from pygame.locals import *
 
+sense = SenseHat()
 xbird = 3
 ybrid = 3
 
@@ -49,7 +50,6 @@ sense.stick.direction_up = pushed_up
 sense.stick.direction_down = pushed_down
 
 if __name__ == "__main__":
-    sense = SenseHat()
     sense.set_rotation(180)
     list_name = get_names()
     while True:
