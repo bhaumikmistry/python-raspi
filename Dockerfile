@@ -28,6 +28,8 @@ WORKDIR /usr/src/app/RTIMULib-b949681af69b45f0f7f4bb53b6770037b5b02178/Linux/pyt
 RUN python3 setup.py build
 RUN python3 setup.py install
 
+WORKDIR /usr/src/app
+
 # This will copy all files in our root to the working  directory in the container
 COPY . ./
 
