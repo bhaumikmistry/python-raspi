@@ -21,7 +21,7 @@ def get_names():
         "lO_sprite_stage9.png",
     ]
     return names
-    
+
 if __name__ == "__main__":
     sense = SenseHat()
     sense.set_rotation(180)
@@ -30,6 +30,7 @@ if __name__ == "__main__":
         for x in list_name:
             sleep(0.7) # Time in seconds.
             print('"{}"'.format(x))
+            sense.clear()
             sense.load_image('"{}"'.format(x))
 
 
