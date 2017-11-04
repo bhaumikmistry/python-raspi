@@ -158,7 +158,7 @@ class Weatherdata:
 
 if __name__ == "__main__":
     wd = Weatherdata()
-    wd.addwoeid(12758585)
+    wd.addwoeid(12758583)
     print(wd.getTemp('f'))
     print(wd.getTemp('c'))
     print(wd.getWind())
